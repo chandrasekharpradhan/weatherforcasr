@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: initial;
+    box-sizing: border-box;
+}
+ body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/08/24/17/09/sun-1617470_1280.jpg"); 
+}
+
+.hole{
+    width: 100%;
+    max-width: 400px;
+    background: linear-gradient(135deg,#f7dc8c,#dae493);
+    color: #fff;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 20px 0px;
+    text-align: center;
+}
+.hole input{
+    border: 0;
+    background: #e9efef;
+    color:#555;
+    padding: 10px 20px;
+    height: 40px;
+    margin:10px;
+    border-radius: 20px;
+}
+.sub{
+    background-color: green;
+    color: black;
+    padding: 3px 19px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-style: normal;
+    cursor: pointer;
+}
+.weather1 img{
+    height: 200px;
+    margin: 10px 10px;
+    background: linear-gradient(135deg,#05f1c2,#5b548a);
+}
+.weather{
+    margin-top: 10px;
+}
+.weather h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top:30px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 50%;
+    height: 100px;
+    border-radius: 20px;
+}
+.humidity,.Wind{
+    font-size: 20px;
+    margin-top: -20;
+}
+.weather1{
+    display: none;
+}
+.error{
+   text-align: left;
+   margin-left: 60px;
+   font-size: 12px;
+   margin-top: 0px;
+   display: none;
+}
